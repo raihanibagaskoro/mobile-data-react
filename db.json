@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john",
+      "password": "doe",
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": "2",
+      "username": "doe",
+      "password": "john",
+      "firstName": "Doe",
+      "lastName": "John"
+    }
+  ],
+  "paket": [
+    {
+      "id": "1",
+      "name": "Internet 1GB/2 Days",
+      "validity": 2,
+      "quota": 1,
+      "price": 6000
+    },
+    {
+      "id": "2",
+      "name": "Internet 1.5GB/3 Days",
+      "validity": 3,
+      "quota": 1.5,
+      "price": 8500
+    },
+    {
+      "id": "3",
+      "name": "Internet 2.5GB/5 Days",
+      "validity": 5,
+      "quota": 2.5,
+      "price": 13250
+    },
+    {
+      "id": "4",
+      "name": "Internet 5GB/5 Days",
+      "validity": 5,
+      "quota": 5,
+      "price": 18000
+    },
+    {
+      "id": "5",
+      "name": "Internet 7/7 Days",
+      "validity": 7,
+      "quota": 7,
+      "price": 24000
+    },
+    {
+      "id": "6",
+      "name": "Internet 15GB/5 Days",
+      "validity": 5,
+      "quota": 15,
+      "price": 30000
+    }
+  ],
+  "transaction": [
+    {
+      "id": "1",
+      "userId": "1",
+      "paketId": "1"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "paketId": "3"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "paketId": "4"
+    },
+    {
+      "id": "4",
+      "userId": "2",
+      "itemId": "6"
+    },
+    {
+      "id": "5",
+      "userId": "2",
+      "itemId": "6"
+    },
+    {
+      "id": "fae7",
+      "userId": "1",
+      "itemId": "5"
+    }
+  ]
+}

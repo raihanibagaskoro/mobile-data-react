@@ -1,0 +1,6 @@
+export const MAKE_REQUEST = 'MAKE_REQUEST'
+export const FAIL_REQUEST = 'FAIL_REQUEST'
+export const GET_PAKET_LIST = 'GET_PAKET_LIST'
+export const GET_USER = 'GET_USER'
+export const GET_TRANSACTION = 'GET_TRANSACTION'
+export const ADD_TRANSACTION = 'ADD_TRANSACTION'
